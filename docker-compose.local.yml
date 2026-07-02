@@ -1,0 +1,26 @@
+# =============================================================================
+# ZACON Contabilidade - Docker Compose Local (Desenvolvimento)
+# Uso: docker compose -f docker-compose.local.yml up --build
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # Aplicação Next.js
+  # ---------------------------------------------------------------------------
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zacon-app-local
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    networks:
+      - zacon-local
+
+networks:
+  zacon-local:
+    driver: bridge

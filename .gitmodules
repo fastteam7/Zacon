@@ -1,0 +1,3 @@
+[submodule "ZaconF"]
+	path = ZaconF
+	url = git@github.com:fastteam7/ZaconF.git

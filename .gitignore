@@ -1,0 +1,29 @@
+# =============================================================================
+# ZACON Infrastructure - Git Ignore
+# =============================================================================
+
+# Environment files (contêm segredos)
+.env
+.env.local
+.env.production
+
+# Certificados SSL (gerados em produção)
+certbot/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporários
+tmp/
+temp/
