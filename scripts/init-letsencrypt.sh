@@ -6,8 +6,8 @@
 set -e
 
 # Configurações
-DOMAIN="zaconcontabilidade.com.br"
-EMAIL="contato@zaconcontabilidade.com.br"
+DOMAIN="zacon.com.br"
+EMAIL="contato@zacon.com.br"
 DATA_PATH="./certbot"
 RSA_KEY_SIZE=4096
 STAGING=0 # Mude para 1 para testar sem usar quota do Let's Encrypt
