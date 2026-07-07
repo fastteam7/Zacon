@@ -20,7 +20,7 @@ services:
     networks:
       - zacon-network
     healthcheck:
-      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000"]
+      test: ["CMD-SHELL", "node -e \"require('http').get('http://localhost:3000', (r) => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))\""]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -49,8 +49,7 @@ services:
       - ./certbot/conf:/etc/letsencrypt:ro
       - nginx-cache:/var/cache/nginx
     depends_on:
-      app:
-        condition: service_healthy
+      - app
     networks:
       - zacon-network
     deploy:
