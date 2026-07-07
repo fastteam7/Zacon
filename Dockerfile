@@ -1,6 +1,6 @@
 # =============================================================================
 # ZACON Contabilidade - Dockerfile
-# Multi-stage build para Next.js 15
+# Multi-stage build otimizado para Next.js 15 com standalone output
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -39,7 +39,7 @@ ENV NODE_ENV=production
 RUN npm run build
 
 # -----------------------------------------------------------------------------
-# Stage 3: Runner (Produção)
+# Stage 3: Runner (Produção - Standalone otimizado)
 # -----------------------------------------------------------------------------
 FROM node:20-alpine AS runner
 
@@ -55,13 +55,12 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 
-# Copia arquivos necessários para produção
+# Copia arquivos públicos
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/package.json ./package.json
 
-# Copia o build standalone (se existir) ou o .next completo
-COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
+# Copia o build standalone (muito mais leve)
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
 # Define usuário não-root
 USER nextjs
@@ -69,5 +68,9 @@ USER nextjs
 # Expõe a porta
 EXPOSE 3000
 
-# Comando de inicialização
-CMD ["npm", "start"]
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD wget --no-verbose --tries=1 --spider http://localhost:3000/ || exit 1
+
+# Comando de inicialização (standalone server)
+CMD ["node", "server.js"]

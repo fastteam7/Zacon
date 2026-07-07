@@ -1,5 +1,5 @@
 # =============================================================================
-# ZACON Contabilidade - Docker Compose
+# ZACON Contabilidade - Docker Compose (Optimized)
 # =============================================================================
 
 services:
@@ -25,9 +25,15 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
 
   # ---------------------------------------------------------------------------
-  # Nginx - Proxy Reverso e SSL
+  # Nginx - Proxy Reverso e SSL (Otimizado com cache)
   # ---------------------------------------------------------------------------
   nginx:
     image: nginx:alpine
@@ -41,10 +47,18 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
       - ./certbot/www:/var/www/certbot:ro
       - ./certbot/conf:/etc/letsencrypt:ro
+      - nginx-cache:/var/cache/nginx
     depends_on:
-      - app
+      app:
+        condition: service_healthy
     networks:
       - zacon-network
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+        reservations:
+          memory: 64M
 
   # ---------------------------------------------------------------------------
   # Certbot - Certificados SSL (Let's Encrypt)
@@ -62,3 +76,7 @@ services:
 networks:
   zacon-network:
     driver: bridge
+
+volumes:
+  nginx-cache:
+    driver: local
