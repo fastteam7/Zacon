@@ -36,7 +36,7 @@ services:
   # Nginx - Proxy Reverso e SSL (Otimizado com cache)
   # ---------------------------------------------------------------------------
   nginx:
-    image: fholzer/nginx-brotli:v1.25.3
+    image: fholzer/nginx-brotli:v1.26.2
     container_name: zacon-nginx
     restart: unless-stopped
     ports:
