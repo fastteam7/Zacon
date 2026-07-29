@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Z ZACON Contabilidade" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Z
+        - generic [ref=e7]:
+          - generic [ref=e8]: ZACON
+          - generic [ref=e9]: Contabilidade
+      - button "Abrir menu" [ref=e10]
+  - main [ref=e12]:
+    - generic [ref=e19]:
+      - heading "Preços Transparentes" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Honorários justos e sem surpresas. Escolha o plano ideal para sua empresa ou solicite um orçamento personalizado.
+      - generic [ref=e22]:
+        - paragraph [ref=e23]:
+          - strong [ref=e24]: Quanto custa um contador em Florianópolis?
+        - paragraph [ref=e25]:
+          - text: "MEI: a partir de"
+          - strong [ref=e26]: R$ 99/mês
+          - text: ". Simples Nacional:"
+          - strong [ref=e27]: R$ 399 a R$ 799/mês
+          - text: ". Lucro Presumido:"
+          - strong [ref=e28]: R$ 899 a R$ 1.999/mês
+          - text: . Valores variam conforme faturamento e número de funcionários.
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - heading "MEI" [level=3] [ref=e38]
+        - paragraph [ref=e39]: Para Microempreendedores Individuais
+        - generic [ref=e41]:
+          - generic [ref=e42]: R$
+          - generic [ref=e43]: "99"
+          - generic [ref=e44]: /mês
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - generic [ref=e49]: Declaração anual DASN-SIMEI
+          - listitem [ref=e50]:
+            - generic [ref=e53]: Emissão de guias DAS
+          - listitem [ref=e54]:
+            - generic [ref=e57]: Controle de faturamento
+          - listitem [ref=e58]:
+            - generic [ref=e61]: Orientação sobre limites
+          - listitem [ref=e62]:
+            - generic [ref=e65]: Suporte por WhatsApp
+          - listitem [ref=e66]:
+            - generic [ref=e69]: Transição para ME (quando necessário)
+        - link "Contratar MEI" [ref=e71] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Quero%20contratar%20o%20plano%20MEI.
+      - generic [ref=e75]:
+        - generic [ref=e76]: Mais Popular
+        - heading "Simples Nacional" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Para Microempresas e EPPs
+        - generic [ref=e86]:
+          - text: A partir de
+          - generic [ref=e87]:
+            - generic [ref=e88]: R$
+            - generic [ref=e89]: "399"
+            - generic [ref=e90]: /mês
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - generic [ref=e95]: Contabilidade mensal completa
+          - listitem [ref=e96]:
+            - generic [ref=e99]: Apuração de impostos (DAS)
+          - listitem [ref=e100]:
+            - generic [ref=e103]: Folha de pagamento (até 3 func.)
+          - listitem [ref=e104]:
+            - generic [ref=e107]: Obrigações acessórias
+          - listitem [ref=e108]:
+            - generic [ref=e111]: Balanço e DRE
+          - listitem [ref=e112]:
+            - generic [ref=e115]: Certidões negativas
+          - listitem [ref=e116]:
+            - generic [ref=e119]: Suporte prioritário
+          - listitem [ref=e120]:
+            - generic [ref=e123]: Reuniões mensais
+        - link "Solicitar Orçamento" [ref=e125] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20contabilidade%20Simples%20Nacional.
+      - generic [ref=e129]:
+        - heading "Lucro Presumido" [level=3] [ref=e134]
+        - paragraph [ref=e135]: Para empresas de médio porte
+        - generic [ref=e137]:
+          - text: A partir de
+          - generic [ref=e138]:
+            - generic [ref=e139]: R$
+            - generic [ref=e140]: "899"
+            - generic [ref=e141]: /mês
+        - list [ref=e142]:
+          - listitem [ref=e143]:
+            - generic [ref=e146]: Contabilidade mensal completa
+          - listitem [ref=e147]:
+            - generic [ref=e150]: Apuração IRPJ, CSLL, PIS, COFINS
+          - listitem [ref=e151]:
+            - generic [ref=e154]: Folha de pagamento (até 10 func.)
+          - listitem [ref=e155]:
+            - generic [ref=e158]: SPED Fiscal e Contábil
+          - listitem [ref=e159]:
+            - generic [ref=e162]: Relatórios gerenciais
+          - listitem [ref=e163]:
+            - generic [ref=e166]: Planejamento tributário básico
+          - listitem [ref=e167]:
+            - generic [ref=e170]: Contador dedicado
+          - listitem [ref=e171]:
+            - generic [ref=e174]: Reuniões quinzenais
+        - link "Solicitar Orçamento" [ref=e176] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20contabilidade%20Lucro%20Presumido.
+      - generic [ref=e180]:
+        - heading "Lucro Real" [level=3] [ref=e187]
+        - paragraph [ref=e188]: Para grandes empresas
+        - generic [ref=e189]: Sob consulta
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - generic [ref=e194]: Contabilidade completa
+          - listitem [ref=e195]:
+            - generic [ref=e198]: Apuração trimestral/anual
+          - listitem [ref=e199]:
+            - generic [ref=e202]: Folha de pagamento ilimitada
+          - listitem [ref=e203]:
+            - generic [ref=e206]: Todas as obrigações acessórias
+          - listitem [ref=e207]:
+            - generic [ref=e210]: Planejamento tributário avançado
+          - listitem [ref=e211]:
+            - generic [ref=e214]: Auditoria interna
+          - listitem [ref=e215]:
+            - generic [ref=e218]: Equipe dedicada
+          - listitem [ref=e219]:
+            - generic [ref=e222]: Atendimento presencial
+        - link "Falar com Consultor" [ref=e224] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Preciso%20de%20contabilidade%20para%20empresa%20Lucro%20Real.
+    - generic [ref=e228]:
+      - generic [ref=e230]:
+        - heading "Serviços Avulsos" [level=2] [ref=e231]
+        - paragraph [ref=e232]: Precisa de um serviço específico? Confira os valores de referência.
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - heading "Abertura de Empresa" [level=3] [ref=e236]
+          - paragraph [ref=e237]: A partir de R$ 500
+          - paragraph [ref=e238]: MEI gratuito. ME/LTDA inclui taxas e honorários.
+        - generic [ref=e240]:
+          - heading "Imposto de Renda PF" [level=3] [ref=e241]
+          - paragraph [ref=e242]: A partir de R$ 150
+          - paragraph [ref=e243]: Valor varia conforme complexidade da declaração.
+        - generic [ref=e245]:
+          - heading "Planejamento Tributário" [level=3] [ref=e246]
+          - paragraph [ref=e247]: A partir de R$ 1.500
+          - paragraph [ref=e248]: Análise completa com simulações de cenários.
+        - generic [ref=e250]:
+          - heading "BPO Financeiro" [level=3] [ref=e251]
+          - paragraph [ref=e252]: A partir de R$ 800/mês
+          - paragraph [ref=e253]: Contas a pagar/receber, conciliação, relatórios.
+        - generic [ref=e255]:
+          - heading "Departamento Pessoal" [level=3] [ref=e256]
+          - paragraph [ref=e257]: R$ 50-80/funcionário
+          - paragraph [ref=e258]: Folha, eSocial, FGTS, férias, rescisões.
+        - generic [ref=e260]:
+          - heading "Regularização Empresarial" [level=3] [ref=e261]
+          - paragraph [ref=e262]: A partir de R$ 500
+          - paragraph [ref=e263]: Diagnóstico gratuito. Valor conforme pendências.
+      - generic [ref=e265]:
+        - paragraph [ref=e266]: Valores de referência. Orçamento final depende da análise do caso.
+        - link "Solicitar Orçamento Personalizado" [ref=e267] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20personalizado.
+    - generic [ref=e271]:
+      - heading "Dúvidas sobre preços" [level=2] [ref=e274]
+      - generic [ref=e275]:
+        - generic [ref=e282]:
+          - heading "Os preços incluem todas as obrigações?" [level=3] [ref=e283]
+          - paragraph [ref=e284]: Sim. Os planos mensais incluem todas as obrigações fiscais e acessórias do regime. Serviços extraordinários como alterações contratuais, certidões especiais ou defesas fiscais são cobrados à parte.
+        - generic [ref=e291]:
+          - heading "Posso trocar de plano depois?" [level=3] [ref=e292]
+          - paragraph [ref=e293]: Sim. Se sua empresa mudar de regime tributário ou crescer, ajustamos o plano. A transição é feita sem burocracia, aproveitando todo o histórico contábil.
+        - generic [ref=e300]:
+          - heading "Existe fidelidade ou contrato mínimo?" [level=3] [ref=e301]
+          - paragraph [ref=e302]: Não trabalhamos com fidelidade. O contrato é mensal e pode ser cancelado a qualquer momento com aviso prévio de 30 dias.
+        - generic [ref=e309]:
+          - heading "Como funciona o pagamento?" [level=3] [ref=e310]
+          - paragraph [ref=e311]: Os honorários são pagos mensalmente via boleto ou PIX, com vencimento no dia 10. Aceitamos cartão de crédito com acréscimo da taxa.
+    - generic [ref=e315]:
+      - heading "Ainda tem dúvidas sobre valores?" [level=2] [ref=e316]
+      - paragraph [ref=e317]: Entre em contato para um orçamento personalizado. Analisamos sua situação e apresentamos a melhor proposta.
+      - generic [ref=e318]:
+        - link "Falar pelo WhatsApp" [ref=e319] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20para%20contabilidade.
+        - link "Enviar Mensagem" [ref=e322] [cursor=pointer]:
+          - /url: /contato
+  - contentinfo [ref=e323]:
+    - generic [ref=e330]:
+      - generic [ref=e331]:
+        - heading "Pronto para transformar sua gestão contábil?" [level=3] [ref=e332]
+        - paragraph [ref=e333]: Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com segurança.
+      - generic [ref=e334]:
+        - link "Falar no WhatsApp" [ref=e335] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20ZACON%20Contabilidade.
+        - link "Solicitar Contato" [ref=e340] [cursor=pointer]:
+          - /url: /contato
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - link "Z ZACON Contabilidade" [ref=e346] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e347]:
+            - generic [ref=e348]: Z
+            - generic [ref=e350]:
+              - generic [ref=e351]: ZACON
+              - generic [ref=e352]: Contabilidade
+        - paragraph [ref=e353]: Desde 2009 construindo relações de confiança. Tradição, atendimento humanizado e soluções contábeis modernas para empresas e pessoas físicas em Florianópolis e região.
+        - generic [ref=e354]:
+          - link "Instagram" [ref=e355] [cursor=pointer]:
+            - /url: https://instagram.com/zaconcontabilidade
+          - link "Facebook" [ref=e359] [cursor=pointer]:
+            - /url: https://facebook.com/zaconcontabilidade
+          - link "LinkedIn" [ref=e362] [cursor=pointer]:
+            - /url: https://linkedin.com/company/zaconcontabilidade
+      - generic [ref=e367]:
+        - heading "Serviços" [level=4] [ref=e368]
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - link "Abertura de Empresas" [ref=e371] [cursor=pointer]:
+              - /url: /servicos/abertura-de-empresas
+          - listitem [ref=e376]:
+            - link "Contabilidade Geral" [ref=e377] [cursor=pointer]:
+              - /url: /servicos/contabilidade-empresarial
+          - listitem [ref=e382]:
+            - link "Departamento Pessoal" [ref=e383] [cursor=pointer]:
+              - /url: /servicos/departamento-pessoal
+          - listitem [ref=e388]:
+            - link "Imposto de Renda PF" [ref=e389] [cursor=pointer]:
+              - /url: /servicos/imposto-de-renda
+          - listitem [ref=e394]:
+            - link "MEI" [ref=e395] [cursor=pointer]:
+              - /url: /servicos/contabilidade-mei
+          - listitem [ref=e400]:
+            - link "Planejamento Tributário" [ref=e401] [cursor=pointer]:
+              - /url: /servicos/planejamento-tributario
+          - listitem [ref=e406]:
+            - link "BPO Financeiro" [ref=e407] [cursor=pointer]:
+              - /url: /servicos/bpo-financeiro
+      - generic [ref=e412]:
+        - heading "Links Rápidos" [level=4] [ref=e413]
+        - list [ref=e414]:
+          - listitem [ref=e415]:
+            - link "Home" [ref=e416] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e421]:
+            - link "Sobre Nós" [ref=e422] [cursor=pointer]:
+              - /url: /sobre
+          - listitem [ref=e427]:
+            - link "Serviços" [ref=e428] [cursor=pointer]:
+              - /url: /servicos
+          - listitem [ref=e433]:
+            - link "Blog" [ref=e434] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e439]:
+            - link "Contato" [ref=e440] [cursor=pointer]:
+              - /url: /contato
+        - heading "Áreas de Atuação" [level=4] [ref=e445]
+        - list [ref=e446]:
+          - listitem [ref=e447]:
+            - link "Contabilidade em Ingleses" [ref=e448] [cursor=pointer]:
+              - /url: /contabilidade-ingleses
+          - listitem [ref=e453]:
+            - link "Contabilidade no Centro" [ref=e454] [cursor=pointer]:
+              - /url: /contabilidade-centro
+          - listitem [ref=e459]:
+            - link "Contabilidade em Canasvieiras" [ref=e460] [cursor=pointer]:
+              - /url: /contabilidade-canasvieiras
+      - generic [ref=e465]:
+        - heading "Contato" [level=4] [ref=e466]
+        - generic [ref=e467]:
+          - heading "JF Contabilidade e Assessoria Ltda" [level=5] [ref=e468]
+          - paragraph [ref=e469]: "CNPJ: 53.865.831/0001-92"
+        - list [ref=e470]:
+          - listitem [ref=e471]:
+            - link "Rod. Armando Calil Bulos, 5785 Ingleses do Rio Vermelho, Florianópolis - SC" [ref=e472] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Rod.+Armando+Calil+Bulos,+5785,+Ingleses+do+Rio+Vermelho,+Florianópolis
+              - generic [ref=e477]:
+                - generic [ref=e478]: Rod. Armando Calil Bulos, 5785
+                - generic [ref=e479]: Ingleses do Rio Vermelho, Florianópolis - SC
+          - listitem [ref=e480]:
+            - link "(48) 98874-4359" [ref=e481] [cursor=pointer]:
+              - /url: tel:+5548988744359
+          - listitem [ref=e486]:
+            - link "zaconcontabil@gmail.com" [ref=e487] [cursor=pointer]:
+              - /url: mailto:zaconcontabil@gmail.com
+          - listitem [ref=e493]:
+            - generic [ref=e498]: "Seg - Sex: 08:00 - 18:00"
+    - generic [ref=e501]:
+      - paragraph [ref=e502]: © 2026 ZACON Contabilidade. Todos os direitos reservados.
+      - generic [ref=e503]:
+        - paragraph [ref=e504]: Desde 2009 construindo relações de confiança
+        - paragraph [ref=e506]: Florianópolis - SC
+  - link "Fale conosco pelo WhatsApp" [ref=e507] [cursor=pointer]:
+    - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20ZACON%20Contabilidade.
+    - generic [ref=e512]: Fale Conosco
