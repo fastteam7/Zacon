@@ -10,10 +10,16 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        - CMS_API_URL=${CMS_API_URL}
+        - CMS_API_KEY=${CMS_API_KEY}
+        - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://zacon.com.br}
     container_name: zacon-app
     restart: unless-stopped
     ports:
       - "3000:3000"
+    env_file:
+      - .env
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
