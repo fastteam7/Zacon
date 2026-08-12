@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Z ZACON Contabilidade" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Z
+        - generic [ref=e7]:
+          - generic [ref=e8]: ZACON
+          - generic [ref=e9]: Contabilidade
+      - button "Abrir menu" [ref=e10]
+  - main [ref=e12]:
+    - generic [ref=e18]:
+      - navigation [ref=e19]:
+        - link "Home" [ref=e20] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e21]: /
+        - generic [ref=e22]: teste cms
+      - heading "teste cms" [level=1] [ref=e23]
+      - paragraph [ref=e24]: esta é uma pagina de teste para o cms
+      - paragraph [ref=e25]: 1 min de leitura
+    - generic [ref=e28]:
+      - link "Voltar ao início" [ref=e30] [cursor=pointer]:
+        - /url: /
+      - article [ref=e33]:
+        - generic [ref=e34]:
+          - heading [level=1] [ref=e35]:
+            - mark [ref=e36]:
+              - emphasis [ref=e39]:
+                - strong [ref=e40]: marcadores
+          - paragraph [ref=e41]:
+            - code [ref=e42]: marcadores
+          - paragraph [ref=e43]
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - paragraph [ref=e46]: marcadores
+            - listitem [ref=e47]:
+              - paragraph [ref=e48]: marcadores
+          - blockquote [ref=e49]:
+            - paragraph [ref=e50]: marcadores
+            - paragraph [ref=e51]: marcadores
+          - code [ref=e53]: "<div class=\"pers\" style=\"color: red; background-color: green;\"> <h3>teste letra vermelha fundo verde</h3> </div>"
+          - figure [ref=e54]
+          - paragraph [ref=e55]
+      - generic [ref=e56]:
+        - heading "Precisa de ajuda com sua contabilidade?" [level=3] [ref=e58]
+        - paragraph [ref=e59]: A ZACON tem mais de 15 anos de experiência em Florianópolis. Fale conosco!
+        - link "Entrar em Contato" [ref=e61] [cursor=pointer]:
+          - /url: /contato
+  - contentinfo [ref=e62]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - heading "Pronto para transformar sua gestão contábil?" [level=3] [ref=e71]
+        - paragraph [ref=e72]: Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com segurança.
+      - generic [ref=e73]:
+        - link "Falar no WhatsApp" [ref=e74] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20ZACON%20Contabilidade.
+        - link "Solicitar Contato" [ref=e79] [cursor=pointer]:
+          - /url: /contato
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - link "Z ZACON Contabilidade" [ref=e85] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e86]:
+            - generic [ref=e87]: Z
+            - generic [ref=e89]:
+              - generic [ref=e90]: ZACON
+              - generic [ref=e91]: Contabilidade
+        - paragraph [ref=e92]: Desde 2009 construindo relações de confiança. Tradição, atendimento humanizado e soluções contábeis modernas para empresas e pessoas físicas em Florianópolis e região.
+        - generic [ref=e93]:
+          - link "Instagram" [ref=e94] [cursor=pointer]:
+            - /url: https://instagram.com/zaconcontabilidade
+          - link "Facebook" [ref=e98] [cursor=pointer]:
+            - /url: https://facebook.com/zaconcontabilidade
+          - link "LinkedIn" [ref=e101] [cursor=pointer]:
+            - /url: https://linkedin.com/company/zaconcontabilidade
+      - generic [ref=e106]:
+        - heading "Serviços" [level=4] [ref=e107]
+        - list [ref=e108]:
+          - listitem [ref=e109]:
+            - link "Abertura de Empresas" [ref=e110] [cursor=pointer]:
+              - /url: /servicos/abertura-de-empresas
+          - listitem [ref=e115]:
+            - link "Contabilidade Geral" [ref=e116] [cursor=pointer]:
+              - /url: /servicos/contabilidade-empresarial
+          - listitem [ref=e121]:
+            - link "Departamento Pessoal" [ref=e122] [cursor=pointer]:
+              - /url: /servicos/departamento-pessoal
+          - listitem [ref=e127]:
+            - link "Imposto de Renda PF" [ref=e128] [cursor=pointer]:
+              - /url: /servicos/imposto-de-renda
+          - listitem [ref=e133]:
+            - link "MEI" [ref=e134] [cursor=pointer]:
+              - /url: /servicos/contabilidade-mei
+          - listitem [ref=e139]:
+            - link "Planejamento Tributário" [ref=e140] [cursor=pointer]:
+              - /url: /servicos/planejamento-tributario
+          - listitem [ref=e145]:
+            - link "BPO Financeiro" [ref=e146] [cursor=pointer]:
+              - /url: /servicos/bpo-financeiro
+      - generic [ref=e151]:
+        - heading "Links Rápidos" [level=4] [ref=e152]
+        - list [ref=e153]:
+          - listitem [ref=e154]:
+            - link "Home" [ref=e155] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e160]:
+            - link "Sobre Nós" [ref=e161] [cursor=pointer]:
+              - /url: /sobre
+          - listitem [ref=e166]:
+            - link "Serviços" [ref=e167] [cursor=pointer]:
+              - /url: /servicos
+          - listitem [ref=e172]:
+            - link "Blog" [ref=e173] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e178]:
+            - link "Contato" [ref=e179] [cursor=pointer]:
+              - /url: /contato
+        - heading "Ferramentas" [level=4] [ref=e184]
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - link "Simulador Simples Nacional" [ref=e187] [cursor=pointer]:
+              - /url: /simulador-simples-nacional
+          - listitem [ref=e192]:
+            - link "Perguntas Frequentes" [ref=e193] [cursor=pointer]:
+              - /url: /perguntas-frequentes
+          - listitem [ref=e198]:
+            - link "Glossário Contábil" [ref=e199] [cursor=pointer]:
+              - /url: /glossario
+        - heading "Áreas de Atuação" [level=4] [ref=e204]
+        - list [ref=e205]:
+          - listitem [ref=e206]:
+            - link "Contabilidade em Ingleses" [ref=e207] [cursor=pointer]:
+              - /url: /contabilidade-ingleses
+          - listitem [ref=e212]:
+            - link "Contabilidade no Centro" [ref=e213] [cursor=pointer]:
+              - /url: /contabilidade/centro
+          - listitem [ref=e218]:
+            - link "Contabilidade em Canasvieiras" [ref=e219] [cursor=pointer]:
+              - /url: /contabilidade/canasvieiras
+          - listitem [ref=e224]:
+            - link "Contabilidade em Jurerê" [ref=e225] [cursor=pointer]:
+              - /url: /contabilidade/jurere
+          - listitem [ref=e230]:
+            - link "Contabilidade na Trindade" [ref=e231] [cursor=pointer]:
+              - /url: /contabilidade/trindade
+          - listitem [ref=e236]:
+            - link "Contabilidade em Cachoeira" [ref=e237] [cursor=pointer]:
+              - /url: /contabilidade/cachoeira-do-bom-jesus
+      - generic [ref=e242]:
+        - heading "Especialidades" [level=4] [ref=e243]
+        - list [ref=e244]:
+          - listitem [ref=e245]:
+            - link "Contabilidade para Médicos" [ref=e246] [cursor=pointer]:
+              - /url: /contabilidade-para/medicos
+          - listitem [ref=e251]:
+            - link "Contabilidade para Advogados" [ref=e252] [cursor=pointer]:
+              - /url: /contabilidade-para/advogados
+          - listitem [ref=e257]:
+            - link "Contabilidade para Dentistas" [ref=e258] [cursor=pointer]:
+              - /url: /contabilidade-para/dentistas
+          - listitem [ref=e263]:
+            - link "Contabilidade para Engenheiros" [ref=e264] [cursor=pointer]:
+              - /url: /contabilidade-para/engenheiros
+          - listitem [ref=e269]:
+            - link "Contabilidade para Clínicas" [ref=e270] [cursor=pointer]:
+              - /url: /contabilidade-para/clinicas
+      - generic [ref=e275]:
+        - heading "Contato" [level=4] [ref=e276]
+        - generic [ref=e277]:
+          - heading "JF Contabilidade e Assessoria Ltda" [level=5] [ref=e278]
+          - paragraph [ref=e279]: "CNPJ: 53.865.831/0001-92"
+        - list [ref=e280]:
+          - listitem [ref=e281]:
+            - link "Rod. Armando Calil Bulos, 5785 Ingleses do Rio Vermelho, Florianópolis - SC" [ref=e282] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Rod.+Armando+Calil+Bulos,+5785,+Ingleses+do+Rio+Vermelho,+Florianópolis
+              - generic [ref=e287]:
+                - generic [ref=e288]: Rod. Armando Calil Bulos, 5785
+                - generic [ref=e289]: Ingleses do Rio Vermelho, Florianópolis - SC
+          - listitem [ref=e290]:
+            - link "(48) 98874-4359" [ref=e291] [cursor=pointer]:
+              - /url: tel:+5548988744359
+          - listitem [ref=e296]:
+            - link "zaconcontabil@gmail.com" [ref=e297] [cursor=pointer]:
+              - /url: mailto:zaconcontabil@gmail.com
+          - listitem [ref=e303]:
+            - generic [ref=e308]: "Seg - Sex: 08:00 - 18:00"
+    - generic [ref=e311]:
+      - paragraph [ref=e312]: © 2026 ZACON Contabilidade. Todos os direitos reservados.
+      - generic [ref=e313]:
+        - paragraph [ref=e314]: Desde 2009 construindo relações de confiança
+        - paragraph [ref=e316]: Florianópolis - SC
+  - link "Fale conosco pelo WhatsApp" [ref=e317] [cursor=pointer]:
+    - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20ZACON%20Contabilidade.
+    - generic [ref=e322]: Fale Conosco
+  - alert [ref=e327]

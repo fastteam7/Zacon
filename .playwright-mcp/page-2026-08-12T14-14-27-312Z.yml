@@ -1,0 +1,188 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link "Z ZACON Contabilidade" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e5]: Z
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]: ZACON
+          - generic [ref=f1e9]: Contabilidade
+      - button "Abrir menu" [ref=f1e10]
+  - main [ref=f1e12]:
+    - generic [ref=f1e16]:
+      - generic [ref=f1e17]: "404"
+      - heading "Página não encontrada" [level=1] [ref=f1e18]
+      - paragraph [ref=f1e19]: A página que você está procurando não existe ou foi movida. Não se preocupe, podemos ajudá-lo a encontrar o que precisa.
+      - generic [ref=f1e20]:
+        - link "Voltar ao Início" [ref=f1e21] [cursor=pointer]:
+          - /url: /
+        - link "Ver Serviços" [ref=f1e25] [cursor=pointer]:
+          - /url: /servicos
+      - generic [ref=f1e28]:
+        - paragraph [ref=f1e29]: "Precisa de ajuda? Fale conosco:"
+        - generic [ref=f1e30]:
+          - link "(48) 98874-4359" [ref=f1e31] [cursor=pointer]:
+            - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Preciso%20de%20ajuda.
+          - generic [ref=f1e34]: "|"
+          - link "zaconcontabil@gmail.com" [ref=f1e35] [cursor=pointer]:
+            - /url: mailto:zaconcontabil@gmail.com
+      - generic [ref=f1e36]:
+        - paragraph [ref=f1e37]: "Páginas mais acessadas:"
+        - generic [ref=f1e38]:
+          - link "Abertura de Empresas" [ref=f1e39] [cursor=pointer]:
+            - /url: /servicos/abertura-de-empresas
+          - link "Contabilidade MEI" [ref=f1e40] [cursor=pointer]:
+            - /url: /servicos/contabilidade-mei
+          - link "Imposto de Renda" [ref=f1e41] [cursor=pointer]:
+            - /url: /servicos/imposto-de-renda
+          - link "Planejamento Tributário" [ref=f1e42] [cursor=pointer]:
+            - /url: /servicos/planejamento-tributario
+          - link "Contato" [ref=f1e43] [cursor=pointer]:
+            - /url: /contato
+  - contentinfo [ref=f1e44]:
+    - generic [ref=f1e51]:
+      - generic [ref=f1e52]:
+        - heading "Pronto para transformar sua gestão contábil?" [level=3] [ref=f1e53]
+        - paragraph [ref=f1e54]: Entre em contato conosco e descubra como podemos ajudar sua empresa a crescer com segurança.
+      - generic [ref=f1e55]:
+        - link "Falar no WhatsApp" [ref=f1e56] [cursor=pointer]:
+          - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20a%20ZACON%20Contabilidade.
+        - link "Solicitar Contato" [ref=f1e61] [cursor=pointer]:
+          - /url: /contato
+    - generic [ref=f1e65]:
+      - generic [ref=f1e66]:
+        - link "Z ZACON Contabilidade" [ref=f1e67] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e68]:
+            - generic [ref=f1e69]: Z
+            - generic [ref=f1e71]:
+              - generic [ref=f1e72]: ZACON
+              - generic [ref=f1e73]: Contabilidade
+        - paragraph [ref=f1e74]: Desde 2009 construindo relações de confiança. Tradição, atendimento humanizado e soluções contábeis modernas para empresas e pessoas físicas em Florianópolis e região.
+        - generic [ref=f1e75]:
+          - link "Instagram" [ref=f1e76] [cursor=pointer]:
+            - /url: https://instagram.com/zaconcontabilidade
+          - link "Facebook" [ref=f1e80] [cursor=pointer]:
+            - /url: https://facebook.com/zaconcontabilidade
+          - link "LinkedIn" [ref=f1e83] [cursor=pointer]:
+            - /url: https://linkedin.com/company/zaconcontabilidade
+      - generic [ref=f1e88]:
+        - heading "Serviços" [level=4] [ref=f1e89]
+        - list [ref=f1e90]:
+          - listitem [ref=f1e91]:
+            - link "Abertura de Empresas" [ref=f1e92] [cursor=pointer]:
+              - /url: /servicos/abertura-de-empresas
+          - listitem [ref=f1e97]:
+            - link "Contabilidade Geral" [ref=f1e98] [cursor=pointer]:
+              - /url: /servicos/contabilidade-empresarial
+          - listitem [ref=f1e103]:
+            - link "Departamento Pessoal" [ref=f1e104] [cursor=pointer]:
+              - /url: /servicos/departamento-pessoal
+          - listitem [ref=f1e109]:
+            - link "Imposto de Renda PF" [ref=f1e110] [cursor=pointer]:
+              - /url: /servicos/imposto-de-renda
+          - listitem [ref=f1e115]:
+            - link "MEI" [ref=f1e116] [cursor=pointer]:
+              - /url: /servicos/contabilidade-mei
+          - listitem [ref=f1e121]:
+            - link "Planejamento Tributário" [ref=f1e122] [cursor=pointer]:
+              - /url: /servicos/planejamento-tributario
+          - listitem [ref=f1e127]:
+            - link "BPO Financeiro" [ref=f1e128] [cursor=pointer]:
+              - /url: /servicos/bpo-financeiro
+      - generic [ref=f1e133]:
+        - heading "Links Rápidos" [level=4] [ref=f1e134]
+        - list [ref=f1e135]:
+          - listitem [ref=f1e136]:
+            - link "Home" [ref=f1e137] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e142]:
+            - link "Sobre Nós" [ref=f1e143] [cursor=pointer]:
+              - /url: /sobre
+          - listitem [ref=f1e148]:
+            - link "Serviços" [ref=f1e149] [cursor=pointer]:
+              - /url: /servicos
+          - listitem [ref=f1e154]:
+            - link "Blog" [ref=f1e155] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f1e160]:
+            - link "Contato" [ref=f1e161] [cursor=pointer]:
+              - /url: /contato
+        - heading "Ferramentas" [level=4] [ref=f1e166]
+        - list [ref=f1e167]:
+          - listitem [ref=f1e168]:
+            - link "Simulador Simples Nacional" [ref=f1e169] [cursor=pointer]:
+              - /url: /simulador-simples-nacional
+          - listitem [ref=f1e174]:
+            - link "Perguntas Frequentes" [ref=f1e175] [cursor=pointer]:
+              - /url: /perguntas-frequentes
+          - listitem [ref=f1e180]:
+            - link "Glossário Contábil" [ref=f1e181] [cursor=pointer]:
+              - /url: /glossario
+        - heading "Áreas de Atuação" [level=4] [ref=f1e186]
+        - list [ref=f1e187]:
+          - listitem [ref=f1e188]:
+            - link "Contabilidade em Ingleses" [ref=f1e189] [cursor=pointer]:
+              - /url: /contabilidade-ingleses
+          - listitem [ref=f1e194]:
+            - link "Contabilidade no Centro" [ref=f1e195] [cursor=pointer]:
+              - /url: /contabilidade/centro
+          - listitem [ref=f1e200]:
+            - link "Contabilidade em Canasvieiras" [ref=f1e201] [cursor=pointer]:
+              - /url: /contabilidade/canasvieiras
+          - listitem [ref=f1e206]:
+            - link "Contabilidade em Jurerê" [ref=f1e207] [cursor=pointer]:
+              - /url: /contabilidade/jurere
+          - listitem [ref=f1e212]:
+            - link "Contabilidade na Trindade" [ref=f1e213] [cursor=pointer]:
+              - /url: /contabilidade/trindade
+          - listitem [ref=f1e218]:
+            - link "Contabilidade em Cachoeira" [ref=f1e219] [cursor=pointer]:
+              - /url: /contabilidade/cachoeira-do-bom-jesus
+      - generic [ref=f1e224]:
+        - heading "Especialidades" [level=4] [ref=f1e225]
+        - list [ref=f1e226]:
+          - listitem [ref=f1e227]:
+            - link "Contabilidade para Médicos" [ref=f1e228] [cursor=pointer]:
+              - /url: /contabilidade-para/medicos
+          - listitem [ref=f1e233]:
+            - link "Contabilidade para Advogados" [ref=f1e234] [cursor=pointer]:
+              - /url: /contabilidade-para/advogados
+          - listitem [ref=f1e239]:
+            - link "Contabilidade para Dentistas" [ref=f1e240] [cursor=pointer]:
+              - /url: /contabilidade-para/dentistas
+          - listitem [ref=f1e245]:
+            - link "Contabilidade para Engenheiros" [ref=f1e246] [cursor=pointer]:
+              - /url: /contabilidade-para/engenheiros
+          - listitem [ref=f1e251]:
+            - link "Contabilidade para Clínicas" [ref=f1e252] [cursor=pointer]:
+              - /url: /contabilidade-para/clinicas
+      - generic [ref=f1e257]:
+        - heading "Contato" [level=4] [ref=f1e258]
+        - generic [ref=f1e259]:
+          - heading "JF Contabilidade e Assessoria Ltda" [level=5] [ref=f1e260]
+          - paragraph [ref=f1e261]: "CNPJ: 53.865.831/0001-92"
+        - list [ref=f1e262]:
+          - listitem [ref=f1e263]:
+            - link "Rod. Armando Calil Bulos, 5785 Ingleses do Rio Vermelho, Florianópolis - SC" [ref=f1e264] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Rod.+Armando+Calil+Bulos,+5785,+Ingleses+do+Rio+Vermelho,+Florianópolis
+              - generic [ref=f1e269]:
+                - generic [ref=f1e270]: Rod. Armando Calil Bulos, 5785
+                - generic [ref=f1e271]: Ingleses do Rio Vermelho, Florianópolis - SC
+          - listitem [ref=f1e272]:
+            - link "(48) 98874-4359" [ref=f1e273] [cursor=pointer]:
+              - /url: tel:+5548988744359
+          - listitem [ref=f1e278]:
+            - link "zaconcontabil@gmail.com" [ref=f1e279] [cursor=pointer]:
+              - /url: mailto:zaconcontabil@gmail.com
+          - listitem [ref=f1e285]:
+            - generic [ref=f1e290]: "Seg - Sex: 08:00 - 18:00"
+    - generic [ref=f1e293]:
+      - paragraph [ref=f1e294]: © 2026 ZACON Contabilidade. Todos os direitos reservados.
+      - generic [ref=f1e295]:
+        - paragraph [ref=f1e296]: Desde 2009 construindo relações de confiança
+        - paragraph [ref=f1e298]: Florianópolis - SC
+  - link "Fale conosco pelo WhatsApp" [ref=f1e299] [cursor=pointer]:
+    - /url: https://wa.me/5548988744359?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20ZACON%20Contabilidade.
+    - generic [ref=f1e304]: Fale Conosco
+  - alert [ref=f1e309]
