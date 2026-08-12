@@ -29,6 +29,19 @@ echo "Frontend......: $SUBMODULE_DIR"
 command -v docker >/dev/null || { echo "ERRO: Docker não encontrado."; exit 1; }
 command -v git >/dev/null || { echo "ERRO: Git não encontrado."; exit 1; }
 
+# Verifica se o arquivo .env existe (necessário para variáveis do CMS)
+if [ ! -f "$ROOT_DIR/.env" ]; then
+    echo ""
+    echo "ERRO: Arquivo .env não encontrado!"
+    echo "Copie .env.example para .env e configure as variáveis:"
+    echo "  cp $ROOT_DIR/.env.example $ROOT_DIR/.env"
+    echo ""
+    echo "Variáveis necessárias:"
+    echo "  - CMS_API_KEY"
+    echo "  - CMS_WEBHOOK_SECRET"
+    exit 1
+fi
+
 # -----------------------------------------------------------------------------
 # Atualiza repositório principal
 # -----------------------------------------------------------------------------
@@ -40,7 +53,7 @@ echo "=========================================="
 git fetch origin
 git checkout main
 git reset --hard origin/main
-git clean -fd
+git clean -fd -e .env
 
 # -----------------------------------------------------------------------------
 # Atualiza submódulo

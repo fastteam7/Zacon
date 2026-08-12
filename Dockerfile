@@ -31,9 +31,17 @@ COPY --from=deps /app/node_modules ./node_modules
 # Copia o código fonte do ZaconF
 COPY ZaconF/ ./
 
+# ARGs para variáveis de ambiente do CMS (necessário para generateStaticParams)
+ARG CMS_API_URL=https://api.fastteam.pro
+ARG CMS_API_KEY
+ARG NEXT_PUBLIC_SITE_URL=https://zacon.com.br
+
 # Variáveis de ambiente para build
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
+ENV CMS_API_URL=$CMS_API_URL
+ENV CMS_API_KEY=$CMS_API_KEY
+ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 
 # Build da aplicação
 RUN npm run build
